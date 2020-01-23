@@ -5,6 +5,8 @@ import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -14,6 +16,7 @@ import testing.examples.mockito.carparts.Tire;
 
 class Driver_cannot_use_car {
 
+	@Disabled
 	@Test
 	void when_door_is_locked() {
 		Driver driver = 
