@@ -1,7 +1,6 @@
 package testing.examples.mockito;
 
 import java.util.List;
-import java.util.function.BooleanSupplier;
 
 import org.apache.commons.lang3.NotImplementedException;
 

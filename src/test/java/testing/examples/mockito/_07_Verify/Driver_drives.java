@@ -1,21 +1,16 @@
 package testing.examples.mockito._07_Verify;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
-import org.mockito.Captor;
 import org.mockito.Mockito;
 
 import testing.examples.mockito.Car;
 import testing.examples.mockito.Driver;
-import testing.examples.mockito.carparts.AirCondition;
 import testing.examples.mockito.carparts.ACMode;
-import testing.examples.mockito.carparts.Tire;
+import testing.examples.mockito.carparts.AirCondition;
 
 class Driver_drives{
 

@@ -1,6 +1,6 @@
 package testing.examples.mockito._01_ManualMocking;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import org.junit.jupiter.api.Test;
 

@@ -4,7 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.mockito.Mockito.RETURNS_DEEP_STUBS;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
+
 import org.junit.jupiter.api.Test;
+
 import testing.examples.mockito.Car;
 import testing.examples.mockito.Driver;
 import testing.examples.mockito.carparts.Tire;

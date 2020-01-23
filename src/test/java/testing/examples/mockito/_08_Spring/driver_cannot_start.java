@@ -1,7 +1,6 @@
 package testing.examples.mockito._08_Spring;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.mock;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
