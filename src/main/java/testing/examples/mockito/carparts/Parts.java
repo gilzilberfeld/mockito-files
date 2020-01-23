@@ -1,4 +1,4 @@
-package testing.examples.mockito;
+package testing.examples.mockito.carparts;
 
 import java.util.List;
 

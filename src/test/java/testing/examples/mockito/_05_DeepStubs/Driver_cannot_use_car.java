@@ -7,7 +7,7 @@ import static org.mockito.Mockito.when;
 import org.junit.jupiter.api.Test;
 import testing.examples.mockito.Car;
 import testing.examples.mockito.Driver;
-import testing.examples.mockito.Tire;
+import testing.examples.mockito.carparts.Tire;
 
 class Driver_cannot_use_car {
 

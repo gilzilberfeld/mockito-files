@@ -1,6 +1,8 @@
 package testing.examples.mockito._04_PartialMocking;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.fail;
+import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -14,8 +16,6 @@ public class Driver_cannot_start{
 
 	@Test
 	public void without_keys() {
-		Car mockCar = mock(Car.class);
-
 		Driver driver = mock(Driver.class, Mockito.CALLS_REAL_METHODS);
 		when(driver.hasKeys()).thenReturn(false);
 		

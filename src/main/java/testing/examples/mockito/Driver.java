@@ -3,6 +3,12 @@ package testing.examples.mockito;
 import java.util.List;
 import java.util.function.BooleanSupplier;
 
+import org.apache.commons.lang3.NotImplementedException;
+
+import testing.examples.mockito.carparts.ACMode;
+import testing.examples.mockito.carparts.AirCondition;
+import testing.examples.mockito.carparts.Tire;
+
 public class Driver {
 
 	private Car car;
@@ -32,4 +38,15 @@ public class Driver {
 	public boolean canUseCar() {
 		return !isCarBroken();
 	}
+
+	public boolean canEnter() {
+		throw new NotImplementedException("Not yet");
+	}
+
+	public void drive() {
+		car.setAC(new AirCondition(ACMode.On) );
+		car.start();
+	}
+	
+	
 }
