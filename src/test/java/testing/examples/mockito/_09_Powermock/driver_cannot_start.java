@@ -15,6 +15,7 @@ import testing.examples.mockito.Car;
 import testing.examples.mockito.CarFactory;
 import testing.examples.mockito.Driver;
 
+// This is a JUnit 4 test 
 @RunWith(PowerMockRunner.class)
 @PrepareOnlyThisForTest({ CarFactory.class })
 public class driver_cannot_start {
