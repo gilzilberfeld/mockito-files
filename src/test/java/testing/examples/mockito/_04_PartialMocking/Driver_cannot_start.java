@@ -13,7 +13,9 @@ public class Driver_cannot_start{
 
 	@Test
 	public void without_keys() {
-		Driver driver = mock(Driver.class, Mockito.CALLS_REAL_METHODS);
+		Driver driver = mock
+				(Driver.class, Mockito.CALLS_REAL_METHODS);
+		
 		when(driver.hasKeys()).thenReturn(false);
 		
 		assertFalse(driver.canDrive());

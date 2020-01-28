@@ -1,4 +1,4 @@
-package testing.examples.mockito._09_Powermock;
+package testing.examples.mockito._08_Powermock;
 
 import static org.junit.Assert.fail;
 import static org.mockito.Mockito.mock;

@@ -1,4 +1,4 @@
-package testing.examples.mockito._08_Spring;
+package testing.examples.mockito._07_Spring;
 
 import static org.mockito.Mockito.mock;
 

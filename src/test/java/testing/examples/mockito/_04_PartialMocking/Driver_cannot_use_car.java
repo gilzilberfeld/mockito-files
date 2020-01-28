@@ -1,4 +1,4 @@
-package testing.examples.mockito._06_DoAPIs;
+package testing.examples.mockito._04_PartialMocking;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.mockito.Mockito.doReturn;
@@ -13,7 +13,6 @@ import testing.examples.mockito.Driver;
 
 class Driver_cannot_use_car {
 
-	@Disabled
 	@Test
 	void when_door_is_locked() {
 		Driver driver = 
@@ -23,6 +22,8 @@ class Driver_cannot_use_car {
 		assertFalse(driver.canEnter());
 	}
 
+	
+	
 	@Test
 	void when_door_is_locked_2() {
 
