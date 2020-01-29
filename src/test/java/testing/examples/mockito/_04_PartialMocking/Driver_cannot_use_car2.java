@@ -11,13 +11,14 @@ import org.mockito.Mockito;
 
 import testing.examples.mockito.Driver;
 
-class Driver_cannot_use_car {
+class Driver_cannot_use_car_correct {
 
 	@Test
 	void when_door_is_locked() {
+
 		Driver driver = 
 				mock(Driver.class, Mockito.CALLS_REAL_METHODS);
-		when(driver.canEnter()).thenReturn(true);
+		doReturn(false).when(driver).canEnter();
 		
 		assertFalse(driver.canEnter());
 	}
